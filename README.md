@@ -1,13 +1,13 @@
 # Thành viên
-<h4>Tên nhóm: Sea  </h4>
+<h4>Tên nhóm: ĐL-VT  </h4>
 
 >>**Thầy  Bùi Công Danh**
   
 | STT | Họ tên | Chức vụ  |
 |----------------|--------------------|--------------------|
-|  1  |  Trần Ngọc Hiếu Thảo  |   Nhóm trưởng  |
-|  2  |  Nguyễn Đức Phát  |   Thành viên  |
-|  3  |  Dương Thị Phương Thi  |   Thành viên  |
+|  1  |  Huỳnh Văn Tiên  |   Nhóm trưởng  |
+|  2  |  Nguyễn Ngọc Bảo  |   Thành viên  |
+|  3  |  Nguyễn Mạnh Tiến  |   Thành viên  |
 -----------------------------------------------
 ### Sử dụng 
  - .Net Framework version 4.8
@@ -20,7 +20,7 @@
 -----------------------------------------------
 # Dự án
 
-## Hệ thống quản lý sách điện tử
+## Quản lý của bán Pizza
 
 <h5>Mô tả dự án: </h5>
 <p>Ebook là một hệ thống ứng dụng đa nền tảng cho phép người dùng đọc sách điện tử (ebook) trực tuyến. Hệ thống này sẽ mở ra khả năng đọc sách trực tuyến qua giao diện web, đồng thời cung cấp một ứng dụng tiện lợi để quản lý sách một cách hiệu quả.</p>
