@@ -1,114 +1,3 @@
-# Thành viên
-<h4>Tên nhóm: ĐL-VT  </h4>
-
->>**Thầy  Bùi Công Danh**
-  
-| STT | Họ tên | Chức vụ  |
-|----------------|--------------------|--------------------|
-|  1  |  Huỳnh Văn Tiên  |   Nhóm trưởng  |
-|  2  |  Nguyễn Ngọc Bảo  |   Thành viên  |
-|  3  |  Nguyễn Mạnh Tiến  |   Thành viên  |
------------------------------------------------
-### Sử dụng 
- - .Net Framework version 4.5
- - Visual studio 2013
------------------------------------------------
-
-### Chi tiết
-<img src="https://i.imgur.com/FehXExF.jpg">
-
------------------------------------------------
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quản Lý Cửa Hàng Pizza</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-            color: #343a40;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #dc3545;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        h1 {
-            margin: 0;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            color: #dc3545;
-            border-bottom: 2px solid #dc3545;
-            padding-bottom: 10px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-
-        th, td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #dee2e6;
-        }
-
-        th {
-            background-color: #dc3545;
-            color: white;
-        }
-
-        ul {
-            list-style-type: square;
-            margin-left: 20px;
-        }
-
-        .highlight {
-            color: #28a745;
-            font-weight: bold;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #dc3545;
-            color: white;
-            margin-top: 20px;
-        }
-
-        .assigned {
-            font-weight: bold;
-            color: #007bff;
-        }
-
-        .card {
-            background-color: #e9ecef;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
-</head>
-<body>
-
 <header>
     <h1>Quản Lý Cửa Hàng Pizza</h1>
 </header>
@@ -192,18 +81,15 @@
             <li>Thống kê sản phẩm bán chạy nhất trong tháng.</li>
         </ul>
     </div>
+    
+    <h2>Thống kê</h2>
+    <ul>
+        <li>Doanh thu</li>
+        <li>Đơn hàng theo ngày, theo tháng, theo năm</li>
+    </ul>
+
 </div>
 
 <footer>
     <p>&copy; 2024 Quản Lý Cửa Hàng Pizza | Nhóm: Tiên, Tiến, Bảo</p>
 </footer>
-
-</body>
-</html>
-
-Thống kê</p>
-<ul>
-<li>Doanh thu </li>
-<li> Đơn hàng theo ngày theo tháng, theo năm</li></li>
-</ul>
-
