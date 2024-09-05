@@ -1,95 +1,81 @@
-<header>
-    <h1>Quản Lý Cửa Hàng Pizza</h1>
-</header>
+# Quản Lý Cửa Hàng Pizza
 
-<div class="container">
-    <h2>Mô tả dự án</h2>
-    <div class="card">
-        <p>
-            Phần mềm quản lý cửa hàng pizza là hệ thống ứng dụng đa nền tảng, hỗ trợ quản lý đơn hàng, thông tin sản phẩm, khách hàng, 
-            và thanh toán, mang lại trải nghiệm tiện lợi cho cả khách hàng và quản lý cửa hàng. 
-            Người dùng có thể <span class="highlight">tìm kiếm, đặt hàng, và thanh toán trực tuyến</span>, 
-            trong khi nhân viên quản lý có thể dễ dàng kiểm soát thông tin cửa hàng qua ứng dụng.
-        </p>
-    </div>
+## Thành viên
 
-    <h2>Nghiệp vụ và Phân công</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>STT</th>
-                <th>Nghiệp vụ</th>
-                <th>Phân công</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Tìm kiếm pizza theo tên, loại, giá</td>
-                <td class="assigned">Tiên</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Đăng nhập, đăng ký tài khoản khách hàng</td>
-                <td class="assigned">Tiến</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Xem thông tin pizza (chi tiết, đánh giá, bộ lọc)</td>
-                <td class="assigned">Tiên</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Quản lý tài khoản khách hàng</td>
-                <td class="assigned">Bảo</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Đặt hàng pizza</td>
-                <td class="assigned">Bảo</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>Thanh toán</td>
-                <td class="assigned">Bảo</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>Đánh giá món ăn</td>
-                <td class="assigned">Bảo</td>
-            </tr>
-        </tbody>
-    </table>
+<h4>Tên nhóm: ĐL-VT</h4>
 
-    <h2>Chức năng chính</h2>
-    <div class="card">
-        <h3>Website</h3>
-        <ul>
-            <li>Tìm kiếm pizza theo tên, loại, giá.</li>
-            <li>Hiển thị thông tin chi tiết về từng món pizza.</li>
-            <li>Thêm pizza vào giỏ hàng và thanh toán trực tuyến.</li>
-            <li>Quản lý tài khoản khách hàng: thông tin cá nhân, đơn hàng, món yêu thích.</li>
-        </ul>
-    </div>
+**Thầy Bùi Công Danh**
 
-    <div class="card">
-        <h3>Ứng dụng Winform</h3>
-        <ul>
-            <li>Quản lý sản phẩm: thêm/cập nhật pizza, đồ uống.</li>
-            <li>Quản lý khách hàng và tra cứu thông tin.</li>
-            <li>Quản lý nhân viên, phân quyền và báo cáo doanh thu.</li>
-            <li>Thống kê sản phẩm bán chạy nhất trong tháng.</li>
-        </ul>
-    </div>
-    
-    <h2>Thống kê</h2>
-    <ul>
-        <li>Doanh thu</li>
-        <li>Đơn hàng theo ngày, theo tháng, theo năm</li>
-    </ul>
+| STT | Họ tên            | Chức vụ      |
+|-----|-------------------|--------------|
+|  1  | Huỳnh Văn Tiên     | Nhóm trưởng  |
+|  2  | Nguyễn Ngọc Bảo    | Thành viên   |
+|  3  | Nguyễn Mạnh Tiến   | Thành viên   |
 
-</div>
+---
 
-<footer>
-    <p>&copy; 2024 Quản Lý Cửa Hàng Pizza | Nhóm: Tiên, Tiến, Bảo</p>
-</footer>
+### Sử dụng
+- .Net Framework version 4.5
+- Visual studio 2013
+
+---
+
+### Mô tả dự án
+
+<p>
+Phần mềm quản lý cửa hàng pizza là hệ thống ứng dụng đa nền tảng, hỗ trợ quản lý đơn hàng, thông tin sản phẩm, khách hàng, 
+và thanh toán, mang lại trải nghiệm tiện lợi cho cả khách hàng và quản lý cửa hàng. 
+Người dùng có thể <span class="highlight">tìm kiếm, đặt hàng, và thanh toán trực tuyến</span>, 
+trong khi nhân viên quản lý có thể dễ dàng kiểm soát thông tin cửa hàng qua ứng dụng.
+</p>
+
+---
+
+### Nghiệp vụ và Phân công
+
+| STT | Nghiệp vụ                                 | Phân công         |
+|-----|-------------------------------------------|-------------------|
+|  1  | Tìm kiếm pizza theo tên, loại, giá         | Tiên              |
+|  2  | Đăng nhập, đăng ký tài khoản khách hàng    | Tiến              |
+|  3  | Xem thông tin pizza (chi tiết, đánh giá)   | Tiên              |
+|  4  | Quản lý tài khoản khách hàng               | Bảo               |
+|  5  | Đặt hàng pizza                             | Bảo               |
+|  6  | Thanh toán                                 | Bảo               |
+|  7  | Đánh giá món ăn                            | Bảo               |
+
+---
+
+### Chức năng chính
+
+#### Website
+
+<ul>
+  <li>Tìm kiếm pizza theo tên, loại, giá.</li>
+  <li>Hiển thị thông tin chi tiết về từng món pizza.</li>
+  <li>Thêm pizza vào giỏ hàng và thanh toán trực tuyến.</li>
+  <li>Quản lý tài khoản khách hàng: thông tin cá nhân, đơn hàng, món yêu thích.</li>
+</ul>
+
+#### Ứng dụng Winform
+
+<ul>
+  <li>Quản lý sản phẩm: thêm/cập nhật pizza, đồ uống.</li>
+  <li>Quản lý khách hàng và tra cứu thông tin.</li>
+  <li>Quản lý nhân viên, phân quyền và báo cáo doanh thu.</li>
+  <li>Thống kê sản phẩm bán chạy nhất trong tháng.</li>
+</ul>
+
+---
+
+### Thống kê
+
+<ul>
+  <li>Doanh thu theo ngày, tháng, năm.</li>
+  <li>Đơn hàng theo ngày, tháng, năm.</li>
+</ul>
+
+---
+
+### Chi tiết
+
+<img src="https://i.imgur.com/FehXExF.jpg" alt="Pizza Project">
