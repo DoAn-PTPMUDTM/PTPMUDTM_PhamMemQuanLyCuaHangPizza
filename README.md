@@ -1,5 +1,7 @@
 # Thành viên
 <h4>Tên nhóm: ĐL-VT  </h4>
+
+>>**Thầy  Bùi Công Danh**
   
 | STT | Họ tên | Chức vụ  |
 |----------------|--------------------|--------------------|
@@ -8,139 +10,197 @@
 |  3  |  Nguyễn Mạnh Tiến  |   Thành viên  |
 -----------------------------------------------
 ### Sử dụng 
- - .Net Framework version 4.8
- - Visual studio 2022
+ - .Net Framework version 4.5
+ - Visual studio 2013
 -----------------------------------------------
 
 ### Chi tiết
 <img src="https://i.imgur.com/FehXExF.jpg">
 
 -----------------------------------------------
-# Dự án
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Cửa Hàng Pizza</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            margin: 0;
+            padding: 0;
+        }
 
-## Quản lý của bán Pizza
+        header {
+            background-color: #dc3545;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
 
-<h5>Mô tả dự án: </h5>
-<p>Ebook là một hệ thống ứng dụng đa nền tảng cho phép người dùng đọc sách điện tử (ebook) trực tuyến. Hệ thống này sẽ mở ra khả năng đọc sách trực tuyến qua giao diện web, đồng thời cung cấp một ứng dụng tiện lợi để quản lý sách một cách hiệu quả.</p>
+        h1 {
+            margin: 0;
+        }
 
-<p>Được truy cập thông qua mạng, người dùng sẽ có cơ hội trải nghiệm không gian đọc sách độc đáo với sự tiện ích và linh hoạt mà chỉ công nghệ có thể mang lại. Không còn cần phải mang theo sách giấy, không gian sách điện tử sẽ tiết kiệm không gian và mang đến trải nghiệm đọc sách linh hoạt hơn bao giờ hết. Từ những trang sách kinh điển cho đến những tác phẩm hiện đại, mọi thứ đều có thể được truy cập và đọc một cách thuận tiện. </p>
-<p>Song song với việc đọc sách trực tuyến, ứng dụng đi kèm cung cấp một giao diện quản lý tiện lợi. Người dùng có thể tổ chức và quản lý tài liệu sách của mình theo cách riêng biệt, từ việc đánh dấu, sắp xếp theo thể loại cho đến tìm kiếm nhanh bằng cách sử dụng các tiện ích tìm kiếm thông minh. Điều này mang lại sự tiện lợi và hiệu quả cho việc tìm kiếm và sử dụng tài liệu sách, từ đó khuyến khích sự học hỏi và nghiên cứu một cách linh hoạt và hiệu quả hơn.
-</p>
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
 
-### Yêu cầu 
-<p>AI: Gợi ý loại sách theo nội dung  </p>
+        h2 {
+            color: #dc3545;
+            border-bottom: 2px solid #dc3545;
+            padding-bottom: 10px;
+        }
 
-<p>Web: MVC ASP, LinQ</p>
-<p>Ngôn ngữ: Javascript, C# </p>
-<p>Framework: Bootstrap</p>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
 
-<p>Nghiệp vụ</p>
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
 
-| STT | Nghiệp vụ | Phân công  |
-|----------------|--------------------|--------------------|
-|  1  |  Tìm kiếm sách |   Thi  |
-|  2  |  Đăng nhập đăng ký |  Thảo  |
-|  3  |  Xem thông tin sách [Trang chủ, trang tin tức, trang giới thiệu, trang xem toàn bộ sách(có bộ lọc),Xem chi tiết sách, đánh giá sách]  |   Thi  |
-|  4  |  Quản lý thông tin tài khoản [Thông tin KH, thông tin tài khoản, thông tin đơn hàng đã mua, sách yêu thích] |  Phát  |
-|  5  |  Mua hàng  |  Phát  |
-|  6 |  Thanh toán |  Phát  |
-|  7 |  Đánh giá |  Phát  |
+        th {
+            background-color: #dc3545;
+            color: white;
+        }
 
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
 
-<p>App: Winform </p>
-<p>Ngôn ngữ: C# </p>
+        .highlight {
+            color: #28a745;
+            font-weight: bold;
+        }
 
-| STT | Nghiệp vụ | Phân công  |
-|----------------|--------------------|--------------------|
-|  1  |  Đăng nhập/đăng xuất |   Thảo  |
-|  2  | Phân quyền  |  Thảo |
-|  3  |  Quản lý nhân viên +  chức vụ  |   Thi  |
-|  4  |  Quản lý sách + tác giả + nhà sản xuất + AI|   Thảo  |
-|  5  |  Quản lý khách hàng |  Thi  |
-|  6  |   Quản lý tin tức |  Phát  |
-|  7  |   Thống kê |  Thảo  |
-|  8  |   Báo cáo |  Thảo  |
-|  9  |  Duyệt tin tức|  Thảo  |
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #dc3545;
+            color: white;
+            margin-top: 20px;
+        }
 
+        .assigned {
+            font-weight: bold;
+            color: #007bff;
+        }
 
-## Chức năng
-#### WEDSITE
-<p>Tìm kiếm và hiện thi thông tin sách:</p>
-<ul>
-  <li>Tìm kiếm sách theo tên, tác giả, thể loại, từ khóa, v.v.</li>
-  <li>Hiển thị thông tin chi tiết của mỗi cuốn sách, bao gồm mô tả, tác giả, đánh giá, v.v.</li>
-</ul>
-<p>
-  Giỏ hàng, Mua sách và thanh toán:
-</p>
-<ul>
-  <li>Thêm sách vào giỏ hàng </li>
-  <li>Xem lại giỏ hàng trước khi tiến hành thanh toán</li>
-   <li>Hỗ trợ nhiều phương thức thanh toán an toàn như ví điện tử, v.v.</li>
-	<li>Hiển thị thông tin chi tiết của giỏ hàng và tổng số tiền.</li>
-</ul>
-<p>
- Quản lý thông tin tài khoản 
-</p>
-<ul>
-<li>
-    Đăng ký và đăng nhập tài khoản cho người dùng.
-  </li>
-  <li>Quản lý thông tin cá nhân, mật khẩu</li>
-  <li>Hiển thị danh sách các cuốn sách mà người dùng đã mua hoặc tải về.</li>
-<li>Đơn hàng của người dùng</li>
-<li>Hiện thị sách yêu thích</li>
-<li>Thông tin tài khoản</li>
- <li>Đổi mật khẩuh</li>
-<li>Thông tin khách hàng</li>
-<li>Người dùng có thể đánh giá và viết nhận xét về các cuốn sách.</li>
-</ul>
+        .card {
+            background-color: #e9ecef;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
 
-#### APP
+<header>
+    <h1>Quản Lý Cửa Hàng Pizza</h1>
+</header>
 
-<p>
-Quản lý sách
-</p>
-<ul>
-<li>Thêm và cập nhật sách</li>
-<li>Tra cứu thông tin sách</li>
-</ul>
-<p>
-Quản lý thể loại và nhà xuất bản
-</p>
-<ul>
-<li>Thêm và cập nhật </li>
-</ul>
-<p>
-Quản lý khách hàng
-</p>
-<ul>
-<li>Thêm và cập nhật </li>
-<li>Tra cứu thông tin khách hàng</li>
-</ul>
-<p>
-Quản lý tin tức
-</p>
-<ul>
-<li>Thêm và cập nhật </li>
-<li>Duyệt tin tức </li>
-</ul>
-<p>
-Quản lý nhân viên và chức vụ
-</p>
-<ul>
-<li>Thêm và cập nhật </li>
-<li> Phân quyền nhân viên tùy theo chức vụ</li>
-<li> Tra cứu thông tin của nhân viên </li></li>
-</ul>
-<p>
-Báo cáo
-</p>
-<ul>
-<li>Sách được mau nhiều nhất trong tháng </li>
-<li> Sách đuợc Thêm vào yêu thích nhiều nhất</li></li>
-</ul>
-<p>
+<div class="container">
+    <h2>Mô tả dự án</h2>
+    <div class="card">
+        <p>
+            Phần mềm quản lý cửa hàng pizza là hệ thống ứng dụng đa nền tảng, hỗ trợ quản lý đơn hàng, thông tin sản phẩm, khách hàng, 
+            và thanh toán, mang lại trải nghiệm tiện lợi cho cả khách hàng và quản lý cửa hàng. 
+            Người dùng có thể <span class="highlight">tìm kiếm, đặt hàng, và thanh toán trực tuyến</span>, 
+            trong khi nhân viên quản lý có thể dễ dàng kiểm soát thông tin cửa hàng qua ứng dụng.
+        </p>
+    </div>
+
+    <h2>Nghiệp vụ và Phân công</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Nghiệp vụ</th>
+                <th>Phân công</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Tìm kiếm pizza theo tên, loại, giá</td>
+                <td class="assigned">Tiên</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Đăng nhập, đăng ký tài khoản khách hàng</td>
+                <td class="assigned">Tiến</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Xem thông tin pizza (chi tiết, đánh giá, bộ lọc)</td>
+                <td class="assigned">Tiên</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Quản lý tài khoản khách hàng</td>
+                <td class="assigned">Bảo</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Đặt hàng pizza</td>
+                <td class="assigned">Bảo</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Thanh toán</td>
+                <td class="assigned">Bảo</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Đánh giá món ăn</td>
+                <td class="assigned">Bảo</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Chức năng chính</h2>
+    <div class="card">
+        <h3>Website</h3>
+        <ul>
+            <li>Tìm kiếm pizza theo tên, loại, giá.</li>
+            <li>Hiển thị thông tin chi tiết về từng món pizza.</li>
+            <li>Thêm pizza vào giỏ hàng và thanh toán trực tuyến.</li>
+            <li>Quản lý tài khoản khách hàng: thông tin cá nhân, đơn hàng, món yêu thích.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Ứng dụng Winform</h3>
+        <ul>
+            <li>Quản lý sản phẩm: thêm/cập nhật pizza, đồ uống.</li>
+            <li>Quản lý khách hàng và tra cứu thông tin.</li>
+            <li>Quản lý nhân viên, phân quyền và báo cáo doanh thu.</li>
+            <li>Thống kê sản phẩm bán chạy nhất trong tháng.</li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Quản Lý Cửa Hàng Pizza | Nhóm: Tiên, Tiến, Bảo</p>
+</footer>
+
+</body>
+</html>
+
 Thống kê</p>
 <ul>
 <li>Doanh thu </li>
