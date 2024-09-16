@@ -8,6 +8,8 @@ namespace Project
 {
     static class Program
     {
+        public static frmMain mainForm = null;
+        public static LoginForm loginForm = null;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +18,8 @@ namespace Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            loginForm = new LoginForm();
+            Application.Run(loginForm);
         }
     }
 }
