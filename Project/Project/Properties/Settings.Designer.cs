@@ -35,5 +35,16 @@ namespace Project.Properties {
                 this["CONN"] = value;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-94SK824\\NGOCBAO;Initial Catalog=Module_DN;Integrated Security" +
+            "=True")]
+        public string Module_DNConnectionString {
+            get {
+                return ((string)(this["Module_DNConnectionString"]));
+            }
+        }
     }
 }

@@ -22,5 +22,21 @@ namespace Project
         {
             Program.loginForm.Show();
         }
+
+        
+
+        private void ThemNguoiDungVaoNhomToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmThemNguoiDungVaoNhom frm = new frmThemNguoiDungVaoNhom();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void NguoiDungToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNguoidung frm = new frmNguoidung();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }
