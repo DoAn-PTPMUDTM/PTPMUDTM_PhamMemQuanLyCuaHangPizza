@@ -1,0 +1,15 @@
+C:\Users\huynh\Desktop\PTPMUDTM\PTPMUDTM\ProjectWin\DTO\bin\Debug\DTO.dll.config
+C:\Users\huynh\Desktop\PTPMUDTM\PTPMUDTM\ProjectWin\DTO\bin\Debug\DTO.dll
+C:\Users\huynh\Desktop\PTPMUDTM\PTPMUDTM\ProjectWin\DTO\bin\Debug\DTO.pdb
+C:\Users\huynh\Desktop\PTPMUDTM\PTPMUDTM\ProjectWin\DTO\bin\Debug\EntityFramework.dll
+C:\Users\huynh\Desktop\PTPMUDTM\PTPMUDTM\ProjectWin\DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\huynh\Desktop\PTPMUDTM\PTPMUDTM\ProjectWin\DTO\bin\Debug\Newtonsoft.Json.dll
+C:\Users\huynh\Desktop\PTPMUDTM\PTPMUDTM\ProjectWin\DTO\bin\Debug\System.Data.SqlClient.dll
+C:\Users\huynh\Desktop\PTPMUDTM\PTPMUDTM\ProjectWin\DTO\bin\Debug\EntityFramework.xml
+C:\Users\huynh\Desktop\PTPMUDTM\PTPMUDTM\ProjectWin\DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\huynh\Desktop\PTPMUDTM\PTPMUDTM\ProjectWin\DTO\bin\Debug\System.Data.SqlClient.xml
+C:\Users\huynh\Desktop\PTPMUDTM\PTPMUDTM\ProjectWin\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\huynh\Desktop\PTPMUDTM\PTPMUDTM\ProjectWin\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\huynh\Desktop\PTPMUDTM\PTPMUDTM\ProjectWin\DTO\obj\Debug\DTO.csproj.Up2Date
+C:\Users\huynh\Desktop\PTPMUDTM\PTPMUDTM\ProjectWin\DTO\obj\Debug\DTO.dll
+C:\Users\huynh\Desktop\PTPMUDTM\PTPMUDTM\ProjectWin\DTO\obj\Debug\DTO.pdb
