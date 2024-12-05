@@ -1,0 +1,44 @@
+﻿@model ProjectWeb.Models.user
+@{
+    ViewBag.Title = "Add Staff";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+
+        <div class="card-body">
+            <h4 class="card-title">Thêm mới nhân viên</h4>
+            <p class="card-description"> Nhập thông tin nhân viên </p>
+
+            @using (Html.BeginForm("doAdd", "UserAdmin", FormMethod.Post, new { @enctype = "multipart/form-data", @class = "forms-sample" }))
+            {
+                <div class="form-group">
+                    <label>Tên </label>
+                    @Html.TextBoxFor(m => m.full_name,
+                    new { required = "required", @class = "form-control", placeholder = "Tên nhân viên" })
+                </div>
+
+                <div class="form-group">
+                    <label>Email </label>
+                    @Html.TextBoxFor(m => m.email,
+                    new { type = "email", required = "required", @class = "form-control", placeholder = "Email" })
+                </div>
+
+                <div class="form-group">
+                    <label>Mật khẩu </label>
+                    @Html.TextBoxFor(m => m.password,
+                    new { required = "required", @class = "form-control", placeholder = "Mật khẩu" })
+                </div>
+                if (TempData["error"] != null)
+                {
+                    <div class="form-group bg-danger p-2">
+                        <span class="text-white">@TempData["error"]</span>
+                    </div>
+                }
+
+                <input type="submit" class="btn btn-gradient-primary me-2" name="add" value="Thêm">
+            }
+        </div>
+    </div>
+</div>

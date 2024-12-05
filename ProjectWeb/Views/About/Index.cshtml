@@ -1,0 +1,18 @@
+﻿@model ProjectWeb.Models.about
+@{
+    ViewBag.Title = "About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="collection-header">
+    <div class="collection-hero">
+        <div class="collection-hero__image">
+            <img class="blur-up lazyload"
+                 data-src=@Url.Content("~/Content/images/5-pizza-mat-ong-1.jpg")
+                 src=@Url.Content("~/Content/images/5-pizza-mat-ong-1.jpg")
+                 style="object-fit: cover; background-position: top center; width: 100%; height: 100%;" alt="Clothes shop"
+                 title="Clothes shop" />
+        </div>
+    </div>
+</div>
+
+@Html.Raw(Model.content)
