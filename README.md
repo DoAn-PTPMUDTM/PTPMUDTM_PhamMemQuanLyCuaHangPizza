@@ -15,8 +15,8 @@
 ---
 
 ### Sử dụng
-- .Net Framework version 4.5
-- Visual studio 2013
+- .Net Framework version 4.7.2
+- Visual studio 2022
 
 ---
 
@@ -39,9 +39,13 @@ trong khi nhân viên quản lý có thể dễ dàng kiểm soát thông tin c�
 |  2  | Đăng nhập, đăng ký tài khoản khách hàng    | Tiến              |
 |  3  | Xem thông tin pizza (chi tiết, đánh giá)   | Tiên              |
 |  4  | Quản lý tài khoản khách hàng               | Bảo               |
-|  5  | Đặt hàng pizza                             | Bảo               |
+|  5  | Đặt hàng pizza                             | Tiên              |
 |  6  | Thanh toán                                 | Bảo               |
-|  7  | Đánh giá món ăn                            | Bảo               |
+|  8  | From quản lý sản phẩm                      | Tiến              |
+|  9  | From quản lý loại sản phẩm                 | Tiến              |
+|  10  | Form quản lý bình luận                    | Bảo               |
+|  11  | Form quản lý nhân viên                    | Bảo               |
+|  12  | Trang thống kê                            | Tiến              |
 
 ---
 
@@ -50,19 +54,21 @@ trong khi nhân viên quản lý có thể dễ dàng kiểm soát thông tin c�
 #### Website
 
 <ul>
-  <li>Tìm kiếm pizza theo tên, loại, giá.</li>
-  <li>Hiển thị thông tin chi tiết về từng món pizza.</li>
-  <li>Thêm pizza vào giỏ hàng và thanh toán trực tuyến.</li>
-  <li>Quản lý tài khoản khách hàng: thông tin cá nhân, đơn hàng, món yêu thích.</li>
+  <li>Đăng ký.</li>
+  <li>Đặt hàng.</li>
+  <li>Thanh toán.</li>
+  <li>Đánh giá bình luận.</li>
+  <li>Hủy đơn.</li>
 </ul>
 
 #### Ứng dụng Winform
 
 <ul>
-  <li>Quản lý sản phẩm: thêm/cập nhật pizza, đồ uống.</li>
-  <li>Quản lý khách hàng và tra cứu thông tin.</li>
-  <li>Quản lý nhân viên, phân quyền và báo cáo doanh thu.</li>
-  <li>Thống kê sản phẩm bán chạy nhất trong tháng.</li>
+  <li>Quản lý sản phẩm: thêm, xóa, sửa.</li>
+  <li>Quản lý tài khoản nhân viên.</li>
+  <li>Quản lý loại sản phẩm: thêm, xóa, sửa.</li>
+  <li>Quản lý bình luận: xóa.</li>
+  <li>Thống kê cơ bản.</li>
 </ul>
 
 ---
@@ -70,8 +76,11 @@ trong khi nhân viên quản lý có thể dễ dàng kiểm soát thông tin c�
 ### Thống kê
 
 <ul>
-  <li>Doanh thu theo ngày, tháng, năm.</li>
-  <li>Đơn hàng theo ngày, tháng, năm.</li>
+  <li>Số nhân viên.</li>
+  <li>Số khách hàng.</li>
+  <li>Số sản phẩm.</li>
+  <li>Doanh thu.</li>
+  <li>Doanh thu hôm nay.</li>
 </ul>
 
 ---
